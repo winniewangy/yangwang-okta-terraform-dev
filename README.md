@@ -67,15 +67,15 @@ At a very high level, this is what we are aiming to build out through this artic
 2. **Push to Develop:** Code changes are committed locally and pushed to the remote develop branch.
 3. **Dev Build:** GitHub Actions run Terraform commands to deploy to the development environment. This is triggered automatically by the push to develop.
 4. **Pull Request to Main:** A pull request is made from develop to main for code review. Any GitHub Action workflow executions are included in the pull request for review.
-5. **Prod Plan:** GitHub Actions preview changes for the production environment. This is triggered automatically by the pull request to main. This gives reviewers of the pull request an opportunity to validate any of the changes occurring against the production environment.
+5. **Prod Plan:** GitHub Actions preview changes for the production environment. This is triggered automatically by the pull request to main. This lets reviewers of the pull request validate potential changes before the production environment is modified.
 6. **Merge to Main:** The pull request is approved and merged into the main branch.
-7. **Prod Build:** GitHub Actions run Terraform commands to deploy to the production environment. This is triggered automatically by the merge to main.
+7. **Prod Build:** GitHub Actions runs Terraform commands to deploy to the production environment. This is triggered automatically by the merge to main.
 
 
 
 # Configuration
 ## Integrated Development Environment (IDE)
-First things first, lets start with the local development environment. Choosing the right Integrated Development Environment (IDE) with a Terraform plugin is crucial for an efficient and error-free workflow. Some essential features to look for in your IDE:
+First things first, let's start with the local development environment. Choosing the right Integrated Development Environment (IDE) with a Terraform plugin is crucial for an efficient and error-free workflow. Some essential features to look for in your IDE:
 
 1. Variable Declaration Warnings: If your Terraform module requires certain variables, the IDE will alert you when any required variables are not declared.
 2. Resource Declaration Assistance: When you declare a resource, the IDE will warn you if any required attributes are missing and suggest attributes to be added.
@@ -395,7 +395,7 @@ Now that we have everything setup, lets actually build something!
 
 First we will need to update a few files with some of the necessary configurations relevant to your environment. Then we will create a new group in your Okta environment, using variables to declare the group name.
 
-**Step 1: Checkout Main as Develop**
+**Step 1: Create Develop Branch**
 
 Ensure your local repository is up-to-date with the remote main branch.
 
