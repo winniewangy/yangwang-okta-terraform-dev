@@ -6,7 +6,7 @@ terraform {
     }
     okta = {
       source  = "okta/okta"
-      version = "~> 4.8.1"
+      version = "~> 4.10.0"
     }
   }
   #backend configuration variables are supplied directly into the Terraform CLI using the backend-*.conf files

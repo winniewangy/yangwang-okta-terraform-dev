@@ -37,7 +37,7 @@ Create a free Okta Developer Edition account. In the Okta dashboard, create an A
 
 In the AWS account, set up an S3 bucket, a DynamoDB Table, and use Secrets Manager for the private key.
 
-In the GiHub account, create a new repository using this project as the template.
+In the GitHub account, create a new repository using this project as the template.
 
 ## Configure variables
 
