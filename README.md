@@ -94,5 +94,5 @@ Please post any questions as comments on the [blog post][blog], or visit our [Ok
 
 Apache 2.0, see [LICENSE](LICENSE).
 
-[blog]: https://developer.okta.com/blog/2024/10/03/terraform-ci-cd
+[blog]: https://developer.okta.com/blog/2024/10/11/terraform-ci-cd
 
