@@ -8,4 +8,4 @@ okta_client_id    = "your-client-id"
 okta_private_key_id = "your-private-key-kid"
 okta_secret_id    = "your-secrets-manager-id"
 
-#okta_group_name = "Okta Test Group GitHub Actions"
+okta_group_name = "Okta Test Group GitHub Actions"
