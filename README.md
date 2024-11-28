@@ -80,7 +80,7 @@ Create a pull request from develop to main within the repository to trigger the 
 Merge the pull request to main within the repository to trigger the GitHub Actions workflow `Prod Build`, which uses Terraform to build against the Okta production environment. Observe the workflow within GitHub Actions.
 
 
-## Links
+## Links check
 
 This example uses the following open source libraries from Okta:
 
