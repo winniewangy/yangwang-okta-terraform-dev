@@ -4,7 +4,8 @@ okta_base_url     = "okta.com"
 okta_scopes       = [
   "okta.groups.manage"
 ]
-okta_client_id    = "0oaim96kviPiBSOst1d7"
+
+okta_client_id    = "0oam1s0v4tgJfMyKA697"
 okta_private_key_id = "7pQ_tyiUID561KY1y6QilF6F7yZHhlht1POqqRJb9JQ"
 okta_secret_id    = "prod/okta-terraform-key"
 
