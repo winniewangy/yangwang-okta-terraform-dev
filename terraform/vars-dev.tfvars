@@ -10,3 +10,4 @@ okta_private_key_id = "hF1wWQxVd9CxQrbX9hLd7Zke9A8lwtOETAm771Awxf0"
 okta_secret_id    = "dev/okta-terraform-key"
 
 okta_group_name = "Okta Test Terraform Dev X"
+auth_server_name = "API Server"
