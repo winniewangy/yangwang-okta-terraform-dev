@@ -35,4 +35,7 @@ module "directory" {
   source = "./modules/directory"
   okta_group_name = var.okta_group_name
   auth_server_name = var.auth_server_name
+  user_first_name = var.user_first_name
+  user_last_name = var.user_last_name
+  user_login_email = var.user_login_email
 }
