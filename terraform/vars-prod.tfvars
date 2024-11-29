@@ -9,4 +9,4 @@ okta_client_id    = "0oam1s0v4tgJfMyKA697"
 okta_private_key_id = "7pQ_tyiUID561KY1y6QilF6F7yZHhlht1POqqRJb9JQ"
 okta_secret_id    = "prod/okta-terraform-key"
 
-okta_group_name = "Okta Test Terraform Prod"
+okta_group_name = "Okta Test Terraform Prod 1129"
