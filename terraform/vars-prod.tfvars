@@ -2,7 +2,9 @@ region            = "ap-southeast-2"
 okta_org_name     = "trial-8750657"
 okta_base_url     = "okta.com"
 okta_scopes       = [
-  "okta.groups.manage"
+  "okta.groups.manage",
+  "okta.authorizationServers.manage",
+  "okta.users.manage"
 ]
 okta_client_id    = "0oam1s0v4tgJfMyKA697"
 okta_private_key_id = "7pQ_tyiUID561KY1y6QilF6F7yZHhlht1POqqRJb9JQ"
