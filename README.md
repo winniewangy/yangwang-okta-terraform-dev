@@ -90,7 +90,7 @@ This example uses the following open source libraries from Okta:
 
 Please post any questions as comments on the [blog post][blog], or visit our [Okta Developer Forums](https://devforum.okta.com/).
 
-## License
+## License check
 
 Apache 2.0, see [LICENSE](LICENSE).
 
