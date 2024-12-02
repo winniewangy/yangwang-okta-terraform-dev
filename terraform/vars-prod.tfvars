@@ -11,7 +11,7 @@ okta_private_key_id = "7pQ_tyiUID561KY1y6QilF6F7yZHhlht1POqqRJb9JQ"
 okta_secret_id    = "prod/okta-terraform-key"
 
 okta_group_name = "Okta Test Terraform Prod"
-auth_server_name = "API Server"
+#auth_server_name = "API Server"
 user_first_name = "tffirstname"
 user_last_name = "tflastname"
 user_login_email = "tftest@example.com"
